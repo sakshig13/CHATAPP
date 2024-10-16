@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "concurrently \"nodemon nodeserver/index.js\" \"open index.html\"",
-    "build": "npm install"
+    "build": "chmod +x ./node_modules/.bin/* && npm install",
   },
   "engines": {
     "node": "20.x"
