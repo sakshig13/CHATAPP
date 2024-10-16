@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "concurrently \"nodemon nodeserver/index.js\" \"open index.html\"",
-    "build": "npm install && npm run build"
+    "build": "npm install"
   },
   "engines": {
     "node": "20.x"
