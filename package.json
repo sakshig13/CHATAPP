@@ -1,7 +1,4 @@
 {
-  "name": "chat-app",
-  "version": "1.0.0",
-  "description": "A chat app built with Socket.IO",
   "devDependencies": {
     "concurrently": "^9.0.1",
     "nodemon": "^3.1.7"
@@ -11,7 +8,7 @@
   },
   "scripts": {
     "start": "concurrently \"nodemon nodeserver/index.js\" \"open index.html\"",
-    "build": "chmod +x ./node_modules/.bin/* && npm install",
+    "build": "npm install",
   },
   "engines": {
     "node": "20.x"
